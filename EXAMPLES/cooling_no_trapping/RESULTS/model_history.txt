@@ -1,0 +1,91 @@
+ 
++++++++++++++++++++++++++++  PROGRAM diffsim 3.14  +++++++++++++++++++++++++++
+PROCESSING 25000 ATOMS: 
+
+1. GEOLOGICAL STAGE
+
+
+Grid nodes (radius, cm): 200 Geo-timenodes: 50
+Ea  33000; Do 2.0000e+10;
+Trap      N     E-trap  Tscale
+ 0	   0	 33000	 800
+Ft supplied: 0.99900; Ft model: 1.00000; stopping (cm):   0.267
+
+***** Geological model done!   Total CPU time was   0.20s *****
+	         Total walkers produced:   25000 
+	        Total walkers remaining:   14903 
+	 Total walkers lost by ejection:       0
+	Total walkers lost by diffusion:   10097
+	    Remaining walkers untrapped:   14903
+	     Walkers remaining in traps:       0
+                 Total geological jumps: 1254383
+
+     Total age:  59.612 Ma   Ft-corrected:  59.672 Ma
+     Dodson Tc:  58.51 ˚C    Numerical Tc:  59.67 ˚C
+
+2. LABORATORY (CRH) STAGE
+***** Lab model done!         Total CPU time was    0.32s *****
+	      Lab heating rate (˚C/min):   30.00
+	        Total walkers remaining:       0 
+	               Lab walkers lost:   14903
+	 Lab walkers remaining in traps:       0
+                        Total lab jumps: 1.318e+08
+
+                             ENTIRE MODEL DONE:    0.52s *****
+
+Input thermal history:
+0	100.00	100.00
+1	  0.00	  0.00
+
+Discretized thermal history:
+0	100.0000	100.0000
+1	 98.0000	 98.0000
+2	 96.0000	 96.0000
+3	 94.0000	 94.0000
+4	 92.0000	 92.0000
+5	 90.0000	 90.0000
+6	 88.0000	 88.0000
+7	 86.0000	 86.0000
+8	 84.0000	 84.0000
+9	 82.0000	 82.0000
+10	 80.0000	 80.0000
+11	 78.0000	 78.0000
+12	 76.0000	 76.0000
+13	 74.0000	 74.0000
+14	 72.0000	 72.0000
+15	 70.0000	 70.0000
+16	 68.0000	 68.0000
+17	 66.0000	 66.0000
+18	 64.0000	 64.0000
+19	 62.0000	 62.0000
+20	 60.0000	 60.0000
+21	 58.0000	 58.0000
+22	 56.0000	 56.0000
+23	 54.0000	 54.0000
+24	 52.0000	 52.0000
+25	 50.0000	 50.0000
+26	 48.0000	 48.0000
+27	 46.0000	 46.0000
+28	 44.0000	 44.0000
+29	 42.0000	 42.0000
+30	 40.0000	 40.0000
+31	 38.0000	 38.0000
+32	 36.0000	 36.0000
+33	 34.0000	 34.0000
+34	 32.0000	 32.0000
+35	 30.0000	 30.0000
+36	 28.0000	 28.0000
+37	 26.0000	 26.0000
+38	 24.0000	 24.0000
+39	 22.0000	 22.0000
+40	 20.0000	 20.0000
+41	 18.0000	 18.0000
+42	 16.0000	 16.0000
+43	 14.0000	 14.0000
+44	 12.0000	 12.0000
+45	 10.0000	 10.0000
+46	  8.0000	  8.0000
+47	  6.0000	  6.0000
+48	  4.0000	  4.0000
+49	  2.0000	  2.0000
+50	  0.0000	  0.0000

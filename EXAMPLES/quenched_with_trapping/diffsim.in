@@ -1,0 +1,28 @@
+200
+50
+500
+20.0e9
+33000.
+1
+1000	33000	1200
+200.
+900.
+0.5
+20.
+0.999
+
+grid nodes
+geo time nodes
+atom production rate per time step
+Do Durango   50 1.25e9  100 5.0e9  200 20e9 500 125e9 1000 500e9
+Ea
+number of trap types
+traps E-trap Scale-temp  e.g. 500  33000  1200
+repeat previous line so total trap-onfo lines = trap types
+lab start temp
+lab heating range
+lab heating rate in degrees per second .5
+integration time in seconds 10
+Ft 0.4 to 0.999
+
+NOTE: this is the input-file format for diffsim version 3
